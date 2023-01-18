@@ -1,0 +1,24 @@
+.calculator{
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: lightslategray;
+    width: 300px !important;
+}
+.btn{
+    padding: 10px 20px;
+    color: blueviolet;
+
+}
+@media (max-width=271px){
+    .calculator{
+        margin-left: 0px;
+    }
+    .btn {
+        font-size: xx-small;
+        padding: 10% 20%;
+    }
+    h1 {
+        font-size: smaller;
+      }
+    
+}
